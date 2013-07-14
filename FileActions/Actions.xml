@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<action id="com.roberto.file-actions.combpress.yui-min" category="sugar.combpress">
+		<class>OCShellAction</class>
+		<title>Compress</title>
+		
+		<language-context>css, js</language-context>
+		<when-disabled>hide</when-disabled>
+		
+		<setup>
+			<script>fileaction_min.sh</script>
+			<output>console</output>
+		</setup>
+	</action>
+	
+	<action id="com.roberto.file-actions.combpress.cat" category="sugar.combpress">
+		<class>OCShellAction</class>
+		<title>Combine</title>
+		
+		<language-context>css, js</language-context>
+		<when-disabled>hide</when-disabled>
+		
+		<setup>
+			<script>fileaction_cat.sh</script>
+			<output>console</output>
+		</setup>
+	</action>
+	
+	<action id="com.roberto.file-actions.combpress.yui-min-cat" category="sugar.combpress">
+		<class>OCShellAction</class>
+		<title>Combine &amp; Compress</title>
+		
+		<language-context>css, js</language-context>
+		<when-disabled>hide</when-disabled>
+		
+		<setup>
+			<script>fileaction_cat_n_min.sh</script>
+			<output>console</output>
+		</setup>
+	</action>
+	
+</action-recipes>

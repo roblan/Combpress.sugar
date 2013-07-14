@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<action id="com.roberto.file-actions.combpress.yui-css-min" category="sugar.combpress">
+		<class>OCShellAction</class>
+		<title>Compress</title>
+		
+		<language-context>css, js</language-context>
+		<when-disabled>hide</when-disabled>
+		
+		<setup>
+			<script>textaction_min.sh</script>
+			<input>document</input>
+			<output>document</output>
+		</setup>
+	</action>
+	
+</action-recipes>
