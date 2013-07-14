@@ -17,10 +17,10 @@ Or, to install with git, run the following commands in Terminal:
 
 ### File Actions
 
-All **File Actions** are in **File&rarr;Actions&rarr;Combpress** menu and also in **&#9881;&rarr;Combpress**
+All **File Actions** are in **File&rarr;Actions&rarr;Combpress** menu and also in **&#9881 (Gear next to PROJECT FILES);&rarr;Combpress**
 
 * **Combine**: combine selected documents and documents in selected folders (`.css`, `.min.css`, `.js` and `.min.js` files are combined separately). Content in combined document is separated by comments (`@group` comments in `.css` files) and saved in new file under name created by combining names of seleceted documents and proper extension.
-* **Compress**: compress selected documents and documents in selected folders using [YUI Compressor](http://yui.github.io/yuicompressor/) and saves generated files with extension `.min.css` or `min.js`
+* **Compress**: compress selected documents and documents in selected folders using [YUI Compressor](http://yui.github.io/yuicompressor/) and save generated files with extension `.min.css` or `min.js`
 * **Combine &amp; Compress**: First **Combine** selected documents and documents in selected folders then **Compress** new files.
 
 ### Text Actions
