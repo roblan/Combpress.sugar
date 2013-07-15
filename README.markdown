@@ -17,11 +17,15 @@ Or, to install with git, run the following commands in Terminal:
 
 ### File Actions
 
-All **File Actions** are in **File&rarr;Actions&rarr;Combpress** menu and also in **&#9881 (Gear next to PROJECT FILES);&rarr;Combpress**
+All **File Actions** are in **File&rarr;Actions&rarr;Combpress** menu and also in **&#9881; (Gear next to PROJECT FILES)&rarr;Combpress**
 
-* **Combine**: combine selected documents and documents in selected folders (`.css`, `.min.css`, `.js` and `.min.js` files are combined separately). Content in combined document is separated by comments (`@group` comments in `.css` files) and saved in new file under name created by combining names of seleceted documents and proper extension.
+* **Combine**: combine selected documents and documents in selected folders (`.css`, `.min.css`, `.js` and `.min.js` files are combined separately) in the same order they appear in Project Files side bar. Content in combined document is separated by comments (`@group` comments in `.css` files) and saved in new file under name created by combining names of seleceted documents and proper extension.
 * **Compress**: compress selected documents and documents in selected folders using [YUI Compressor](http://yui.github.io/yuicompressor/) and save generated files with extension `.min.css` or `min.js`
 * **Combine &amp; Compress**: First **Combine** selected documents and documents in selected folders then **Compress** new files.
+
+#### File naming convention
+
+File named `X_file_name.css` (or `.js`), where X is a number used for proper file sorting, will have `X_` stripped in combined name and file separating comments. For example: file named `1_first_file.css` will be separated with `/* @group first_file */ [...] /* @end */` comments. Multiple `X_`'s are also supported.
 
 ### Text Actions
 
